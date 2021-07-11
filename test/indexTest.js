@@ -37,7 +37,7 @@ describe('index.js', () => {
   });
 
   describe('shortGreeting', () => {
-    it(`contains "Welcome, "`, () => {
+    it('contains "Welcome, "', () => {
       expect(shortGreeting).to.have.string('Welcome, ');
     });
 
